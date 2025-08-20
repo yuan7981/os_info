@@ -1,0 +1,11 @@
+[project]
+name = "os-info"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "mcp[cli]>=1.13.0",
+    "schedule>=1.2.2",
+    "win10toast>=0.9",
+]
